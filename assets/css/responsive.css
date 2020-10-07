@@ -1,0 +1,123 @@
+@media all and (min-width: 991px){
+	.menu ul{
+		display: flex !important;
+	}
+}
+
+@media all and (max-width: 991px){
+
+	.menu ul{
+		justify-content: center;
+		flex-direction: column;
+		display: none;
+		margin:2rem 0;
+	}
+
+	.menu ul li a{
+		border:none;
+		padding: 1rem 1rem;
+	}
+	.header-area{
+		padding:2rem 0;
+	}
+
+	.logo {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+    .nav-icon{
+    	display: block;
+    }
+
+	.nav-icon i {
+		color: #FFF;
+		font-size: 25px;
+		border: 1px solid #FFF;
+		padding: 4px 8px;
+		border-radius: 3px;
+		display: inline-block;
+	}
+
+	.nav-icon i:hover{
+		background:#17a2b8;
+	}
+
+	/***** hero responsive*******/
+	.hero{
+		flex-direction: column;
+	}
+	.hero h1{
+		margin-bottom: 10px;
+		text-align: center;
+	}
+	/****** testimonials responsive *****/
+	.single-testimonial h1{
+		width: 90%;
+	}
+	/***** Company area *****************/
+	.single-ex-item::after{
+		display: none;
+	}
+	/******* Team area responsive ******/
+	.single-team {
+		margin-bottom: 20px;
+	}
+
+}
+
+@media all and (max-width: 768px){
+	/*******banner responsive*********/
+	
+	.single-blog-item{
+		margin-bottom: 4rem;
+	}
+
+	/**** latest work responsive *****/
+	.single-bannar-item{
+		padding: 15rem 0 15rem 0;
+	}
+
+	/**** company area responsive *******/
+	.single-ex-item{
+		margin-bottom:4rem;
+	}
+}
+
+@media all and (max-width: 576px){ 
+	.top-right-link ul li a{
+		margin:0 1.5rem;
+	}
+
+	.top-right-link .search-icon{
+		display: block; 
+	}
+
+	/*****banner responsive*****/
+	.single-bannar-item {
+		padding: 10rem 0 10rem 0;
+	}
+
+	h1{
+		font-size: 3rem;
+	}
+	.buttons ul{
+		flex-direction: column;
+	}
+    
+    .buttons{
+    	margin-top:4rem;
+    }
+
+	.buttons ul li {
+		margin: 10px 0px;
+	}
+
+	/******* Month responsive ********/
+	.section-title p{
+		width: 90%;
+	}
+
+}
+
