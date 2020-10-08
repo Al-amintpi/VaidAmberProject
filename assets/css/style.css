@@ -923,7 +923,7 @@ p{
 }
  
 .exgrid-padding .title ul li {
-	margin-right: 30px;
+	margin-right: 5px;
 	z-index: 11;
 }
 .title ul li .content{
@@ -1001,7 +1001,7 @@ p{
 
 .blog-area .content h2 {
 	color:#50cfc5;
-	font-size: 3rem;
+	font-size: 2.5rem;
 	line-height: 36px;
 	margin:25px 0;
 }
@@ -1097,7 +1097,7 @@ p{
 	color:#FFF;
 }
  .bg-menu ul li a{
- 	margin:0 1rem;
+ 	margin-right: 1rem;
  	color:#FFF;	 
 }
 
@@ -1136,13 +1136,17 @@ p{
 	font-size: 25px;
 }
 
+.portfolio-content h2 a{
+	color:#11beb0;
+}
+
 .portfolio-content p{
 	margin:0px 10px;
 	margin-bottom: 30px;
 }
 
 .portfolio-content ul{
-	border-top:2px solid #b0b0b0;
+	border-top:1px solid #b0b0b0;
 	padding:20px 10px;
 }
 
@@ -1252,15 +1256,15 @@ p{
 	background: rgba(0, 0, 0, .5);
 	position: absolute;
 }
-.ex-padding{
-	padding-top:120px;
-	padding-bottom: 100px;
-	position:relative;
+.ex-padding {
+	padding-top: 91px;
+	padding-bottom: 61px;
+	position: relative;
 	z-index: 11;
 }
 
 .ex-padding h2 {
-	padding-bottom: 5rem;
+	padding-bottom: 2rem;
 	color: #fff;
 }
 
@@ -1378,15 +1382,25 @@ p{
 	margin-bottom: 2rem;
 }
 
-/**** Three Image Section **********/ 
-.blog-image-subcategory.d-flex {
-    margin: 3rem 0;
+.content.five p {
+	color: #9da1a3;
 }
+
+/**** Three Image Section **********/ 
+
+.blog-image-subcategory {
+	margin: 1.5rem 0;
+}
+
+.blog-image-subcategory ul li {
+	margin-right: 1rem;
+}
+
 
 .blog-image {
 	height: 160px;
-	width: 100%;
-	margin-right: 2rem;
+	width: 210px;
+	 
 }
 
 .blog-image img{
@@ -1400,9 +1414,9 @@ p{
 	margin-top:3rem 0rem;
 }
 
-.content.five p:last-child{
+.content.five p:last-child {
 	padding: 3.5rem 0rem;
-	color:#474e52;
+	color: #9da1a3;
 	border-bottom: 1px solid #eaebec;
 }
 
@@ -1439,19 +1453,28 @@ p{
 	margin: 2rem 2rem;
 	display: inline-block;
 	color:#89dfd8;
+	font-size: 14px;
 }
 
 .recent-post {
 	padding-bottom: 10px;
 	border-bottom: 1px solid #cdc7c7;
+	margin-top: 1rem;
 }
 
-.recent-icon i{
+.recent-post ul li {}
+
+.recent-post ul li i {
 	color: #c3c3c3;
+	margin-right: 10px;
 }
 
-.recent-post.d-flex {
-	margin-top: 2rem;
+.recent-post ul li h3 {
+	color: #807676;
+}
+
+.recent-post ul li a {
+	color: #9ae3dd;
 }
 
 .recent-category-content h4 {
@@ -1518,8 +1541,8 @@ button:focus {
 
 /*****  Tag cloud css start ****/
 
-.tag-title h3{
-	margin-bottom: 3rem;
+.tag-title h3 {
+	margin: 2rem 0;
 }
 
 
@@ -1567,14 +1590,14 @@ button:focus {
 	margin: 2rem 0;
 }
 
-.icon-list ul li{
-	margin-right: 5px;
-	width: 5rem;
-	height: 5rem;
-	font-size: 35px;
+.icon-list ul li {
+	margin-right: 4px;
+	width: 4rem;
+	height: 4rem;
+	font-size: 31px;
 	color: #FFF;
 	text-align: center;
-	line-height: 46px;
+	line-height: 40px;
 }
 
 .icon-list ul li a {
@@ -1583,8 +1606,6 @@ button:focus {
 
 .icon-list ul li:nth-child(1) {
 	background: #305891;
-	line-height: 63px;
-	padding-left: 9px;
 }
 
 .icon-list ul li:nth-child(2){
@@ -1617,6 +1638,7 @@ button:focus {
 
 .d-flex {
 	display: flex !important; 
+	flex-wrap: wrap;
 }
 
 .related-post ul li h3{
@@ -1750,7 +1772,9 @@ button:focus {
   /**************************************/
  /**** Portfolio Grid Page css *********/
 /**************************************/
-
+.hidden-icon{
+	display: none;
+}
 
 .porfolio-grid-image{
 	background: url('../../assets/img/portfolio-grid/bg.jpg') scroll 0 0 / cover;
@@ -1783,9 +1807,8 @@ button:focus {
 /**************************************/
 
 .grid-profolio-icon-top {
-	margin-left: 2rem;
+	margin-left: .5rem;
 	color: #828b93;
-	font-size: 1.5rem;
 	cursor: pointer;
 }
 
@@ -1793,9 +1816,6 @@ button:focus {
 	color:#FFF;
 }
 
-.grid-profolio-icon-top span {
-	margin-left: .7rem;
-}
 
 
   /**************************************/
@@ -1858,6 +1878,8 @@ button:focus {
 	column-gap: 20px;
 	overflow: hidden;
 }
+
+
 
 .portfolio-grid-item{
 	margin-bottom: 2rem;
@@ -2268,14 +2290,14 @@ button:focus {
 .portfolio-single-page-social-icon ul li{}
 
 .portfolio-single-page-social-icon ul li a {
-	width: 5rem;
-	height: 5rem;
+	width: 4rem;
+	height: 4rem;
 	display: inline-block;
 	background: red;
 	margin-right: 1rem;
 	font-size: 30px;
 	color: #FFF;
-	line-height: 51px;
+	line-height: 40px;
 	text-align: center;
 }
 
@@ -2299,4 +2321,10 @@ button:focus {
 	background: #ff6e50;
 }
 
- 
+.footer-item.footer-item-2 ul li span a {
+	color: #02baab;
+}
+
+.footer-item p a {
+	 color: #02baab;
+}
